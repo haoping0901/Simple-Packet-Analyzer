@@ -3,7 +3,7 @@
  ## Usage
  ```
  # Analyze packets from a saved file.
- ./SPA.exe -r pcap_file -n n_packets -f filter
+ ./SPA.exe -r file_path -n n_packets -f filter
 
  # Perform online packet analysis.
  # When using the 'c' flag, all available devices will be listed, allowing you 
