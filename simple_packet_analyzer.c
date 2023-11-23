@@ -3,13 +3,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <netinet/if_ether.h>
 #include <time.h>
 #include <arpa/inet.h>
+#include <netinet/if_ether.h>
 #include <netinet/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/in6.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <netinet/in6.h>
 #include <netinet/ip_icmp.h>
 
 // +5 for ":", +1 for '\0'
