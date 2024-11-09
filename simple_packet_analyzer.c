@@ -156,6 +156,8 @@ int main(int argc, char *argv[]) {
         pcap_dump_flush(pdumper);
 
     pcap_close(handle);
+
+    return 0;
 }
 
 // show the data link protocol the device supported
