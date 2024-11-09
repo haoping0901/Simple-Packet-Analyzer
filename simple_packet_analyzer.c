@@ -28,7 +28,7 @@ void parse_udp(const u_char *packet);
 void check_tcpflag(char flags[], const struct tcphdr *tcp_hdr);
 void show_supported_dlp(pcap_t *handle, char dev[], char errbuf[]);
 
-void main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
     int ret, c;
     int pkt_n = 5; // default number of captured packets
     int sel_dev = 0, set_filter = 0;
